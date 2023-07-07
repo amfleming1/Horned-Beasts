@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './component/Header';
 import Footer from './components/Footer';
 import Main from './components/Main';
+import HornedBeasts from './components/HornedBeasts';
 
 class App extends React.Component {
 
