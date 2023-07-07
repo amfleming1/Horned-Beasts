@@ -21,4 +21,3 @@ class App extends React.Component {
 
 export default App;
 
-(<h1>Horned-Beasts!!!</h1>);
