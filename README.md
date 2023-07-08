@@ -1,6 +1,16 @@
 # Horned-Beasts
 provided by create-react-app
 
+Number and name of feature:
+
+Estimate of time needed to complete: 3 Hours 
+
+Start time: 3:15
+
+Finish time: 
+
+Actual time needed to complete:
+
 Feature #1: Display Images
 Why are we implementing this feature?
 As a user, I want to view the images on the page so that I can browse the photo collection.
