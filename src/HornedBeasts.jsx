@@ -1,4 +1,5 @@
 import React from 'react';
+import { render } from 'react-dom';
 
 class HornedBeasts extends React.Component {
     render() {
@@ -33,3 +34,20 @@ class HornedBeasts extends React.Component {
         )
     }
 }
+
+constructor(props) 
+    super(props);
+    this.state = {
+        favoritedCount: 0
+    };
+
+    render() 
+        return(
+            <div>
+                <h2>{this.props.title}</h2>
+                <img src={this.proper.imgUrl} alt={this.props.title} title={this.props.title} />
+                <p>this.props.description</p>
+
+            </div>
+        )
+    
