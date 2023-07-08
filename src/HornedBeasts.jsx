@@ -35,19 +35,19 @@ class HornedBeasts extends React.Component {
     }
 }
 
-constructor(props) {
+constructor(props) 
     super(props);
     this.state = {
         favoritedCount: 0
     };
-    
+
     render() 
         return(
             <div>
-                <h2>{this.props.name}</h2>
-                <img src={this.proper.imgUrl}/>
-                <p>Favorites</p>
+                <h2>{this.props.title}</h2>
+                <img src={this.proper.imgUrl} alt={this.props.title} title={this.props.title} />
+                <p>this.props.description</p>
 
             </div>
         )
-    }
+    

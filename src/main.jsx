@@ -45,7 +45,7 @@ class Main extends React.Component {
 }
 
 
-render() {
+render() 
     let HornedBeastsComponents = [];
     data.array.forEach(beasts => {
         HornedBeastsComponents.push(
@@ -67,5 +67,5 @@ render() {
             </Row>
         </Container>
     )
-}
+
 export default Main;
