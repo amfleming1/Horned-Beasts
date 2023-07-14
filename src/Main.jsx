@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import HornedBeasts from './HornedBeasts';
 import Row from 'react-bootstrap/Row';
 import data from './data.json';
